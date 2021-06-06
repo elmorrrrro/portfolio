@@ -1,0 +1,87 @@
+#my_photo {
+    padding: 12em 12em 5em 12em;
+    width: 20%;
+    height: 20%;
+}
+#coding {
+    position: absolute;
+    width: 23%;
+    height: 40%;
+    top: 60em;
+    left: 4em;
+    z-index: -1;
+}
+#virtual_piano {
+    width: 550px;
+    height: 324px;
+}
+#flashcards {
+    width: 550px;
+    height: 324px;
+}
+#contacts {
+    margin-top: 50px;
+    text-align: center;
+}
+#github_image {
+    width: 5%;
+    height: 5%;
+}
+body {
+    background-color: #D3D3D3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#nav_items{
+    background-color: #484848;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#nav_items > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+#nav_items > a:hover {
+    background-color: silver;
+    color: black;
+}
+header {
+    background-image: url("images/comp.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#title {
+    height: 700px;
+}
+#title > div {
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+.portfolio_items {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+}
+.about_me {
+    position: absolute;
+    right: 0;
+    padding: 7em;
+    font-size: large;
+}
+#about_me_h {
+    text-align: center;
+}
+#about_me_text {
+    margin-top: 50px;
+    text-align: center;
+}
+footer {
+    background-color: #484848;
+    color: white;
+    font-size: x-small;
+}
